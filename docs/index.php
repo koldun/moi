@@ -1,6 +1,6 @@
 <?php
 session_start();
-error_reporting(0);
+error_reporting(E_ALL);
 require_once($_SERVER['DOCUMENT_ROOT'].'/includes/db_connect.php');
 require_once($_SERVER['DOCUMENT_ROOT'].'/includes/functions/universal.php');
 
