@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+input[type="text"], input[type="password"] {
+    border: 1px solid #949494;
+    border-radius: 4px;
+    padding: 1px 3px;
+    font-size: 13px;
+}
+input::-moz-focus-inner {
+    border:0;
+    padding:0;
+}
+
+select {
+    border: 1px solid #949494;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.clear {
+    clear:both; 
+}
+.wrong {
+    background: #FFA8A8;
+    color: white;
+}
+ul.errors {
+    background: rgb(255, 168, 168);
+}
+ul.notices {
+    background: #BCC9D1;
+}
+ul.errors.no-margin, ul.notices.no-margin {
+	margin-left: 0;
+	margin-right: 0;
+}
+ul.errors, ul.notices {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 10px;
+}
+
+ul.errors li, ul.notices li {
+    padding: 2px;
+    font-weight: bold;
+}
